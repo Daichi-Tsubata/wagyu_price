@@ -33,6 +33,9 @@ p {
   .row {
     margin-bottom: 30px;
   }
+  
+}
+@media screen and (max-width: 576px) {
   #page-top {
     width: 40px;
     height: 40px;
@@ -44,15 +47,13 @@ p {
     bottom: 20px;
     background-color: #FFA500;
   }
-  
+}
   #page-top a {
     display: inline-block;
     width: 100%;
     height: 100%;
     border-radius: 50%;
   }
-}
-
 
 .submit-color {
   background-color: #DE660D;
